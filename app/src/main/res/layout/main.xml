@@ -5,7 +5,7 @@
     android:id="@+id/lyt_parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".activities.MainActivity2">
 
     <RelativeLayout
 
@@ -46,13 +46,14 @@
             android:layout_gravity="bottom"
             android:background="@android:color/white"
             app:itemHorizontalTranslationEnabled="true"
-
-            app:labelVisibilityMode="selected"
+            app:itemIconTint="@drawable/selection_buttom_navigation"
+            app:labelVisibilityMode="labeled"
             app:elevation="2dp"
             app:itemRippleColor="#00000000"
-
+            app:itemTextColor="@drawable/selection_buttom_navigation"
             app:itemTextAppearanceActive="@style/BottomNavigationViewTextStyle"
             app:menu="@menu/bottom_navigation_items" />
+
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
@@ -66,7 +67,7 @@
             app:elevation="3dp"
             app:borderWidth="0dp"
             app:rippleColor="#00000000"
-            app:maxImageSize="80dp"
+            app:maxImageSize="70dp"
             app:srcCompat="@drawable/icn_add" />
 
 

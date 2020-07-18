@@ -18,7 +18,7 @@
         android:enabled="false"/>
 
     <item
-        android:id="@+id/action_messages"
+        android:id="@+id/action_discover"
         android:icon="@drawable/icn_discover_inactive"
         android:title="@string/discover"
         android:enabled="true"/>
