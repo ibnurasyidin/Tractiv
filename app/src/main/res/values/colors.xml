@@ -10,5 +10,6 @@
 
     <!--custom color-->
     <color name="selectedTabLayout">#D97D54</color>
+    <color name="colorBorder">#87BCBF</color>
 
 </resources>
