@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/icn_home_inactive"
+        android:title="@string/title_home"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/action_activiti"
+        android:icon="@drawable/icn_activity_inactive"
+        android:title="@string/title_activitas"
+        android:enabled="true"/>
+
+    <item
+        android:title="@string/space"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/action_discover"
+        android:icon="@drawable/icn_discover_inactive"
+        android:title="@string/discover"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/icn_profile_active"
+        android:title="@string/profile"
+        android:enabled="true"/>
+</menu>
